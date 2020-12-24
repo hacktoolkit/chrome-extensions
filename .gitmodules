@@ -1,0 +1,12 @@
+[submodule "organize-tabs-chrome-extension"]
+	path = organize-tabs-chrome-extension
+	url = git@github.com:hacktoolkit/organize-tabs-chrome-extension.git
+[submodule "notes-chrome-extension"]
+	path = notes-chrome-extension
+	url = git@github.com:hacktoolkit/notes-chrome-extension.git
+[submodule "github-jira-chrome-extension"]
+	path = github-jira-chrome-extension
+	url = git@github.com:hacktoolkit/github-jira-chrome-extension.git
+[submodule "paywall-xray-chrome-extension"]
+	path = paywall-xray-chrome-extension
+	url = git@github.com:hacktoolkit/paywall-xray-chrome-extension.git
