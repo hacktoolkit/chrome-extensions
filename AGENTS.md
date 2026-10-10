@@ -8,10 +8,11 @@ This repository is only a collection. Each extension is a git submodule with its
 | github-jira-chrome-extension | V3 | |
 | paywall-xray-chrome-extension | V3 | |
 | notes-chrome-extension | V2 | Manifest V2 no longer loads in current Chrome; needs a V3 migration. |
+| skeleton-chrome-extension | V3 | The template for new extensions, kept here as a submodule for reference. Not published. |
 
 ## Starting a new extension
 
-Use the template repository [hacktoolkit/htk-chrome-extension-skeleton](https://github.com/hacktoolkit/htk-chrome-extension-skeleton): **Use this template** on GitHub, then run `node scripts/init.mjs "Name" "Description" hacktoolkit/<repo>` once. It ships as a small working extension with the service-worker architecture, a pure tested logic module, the action registry, settings sync, the holodeck scripts, a headless e2e suite and CI already wired. Add the new repository here as a submodule.
+Use the template repository [hacktoolkit/skeleton-chrome-extension](https://github.com/hacktoolkit/skeleton-chrome-extension): **Use this template** on GitHub, then run `node scripts/init.mjs "Name" "Description" hacktoolkit/<repo>` once. It ships as a small working extension with the service-worker architecture, a pure tested logic module, the action registry, settings sync, the holodeck scripts, a headless e2e suite and CI already wired. Add the new repository here as a submodule, as the skeleton itself is.
 
 ## Conventions
 
