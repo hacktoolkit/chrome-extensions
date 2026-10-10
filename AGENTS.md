@@ -4,10 +4,14 @@ This repository is only a collection. Each extension is a git submodule with its
 
 | Extension | Manifest | Notes |
 | --- | --- | --- |
-| organize-tabs-chrome-extension | V3 | Reference implementation: service-worker architecture, unit tests, e2e, holodeck. Start here when modernizing the others. |
+| organize-tabs-chrome-extension | V3 | Reference implementation: service-worker architecture, unit tests, e2e, holodeck, demo recorder. The skeleton is distilled from it. |
 | github-jira-chrome-extension | V3 | |
 | paywall-xray-chrome-extension | V3 | |
 | notes-chrome-extension | V2 | Manifest V2 no longer loads in current Chrome; needs a V3 migration. |
+
+## Starting a new extension
+
+Use the template repository [hacktoolkit/htk-chrome-extension-skeleton](https://github.com/hacktoolkit/htk-chrome-extension-skeleton): **Use this template** on GitHub, then run `node scripts/init.mjs "Name" "Description" hacktoolkit/<repo>` once. It ships as a small working extension with the service-worker architecture, a pure tested logic module, the action registry, settings sync, the holodeck scripts, a headless e2e suite and CI already wired. Add the new repository here as a submodule.
 
 ## Conventions
 

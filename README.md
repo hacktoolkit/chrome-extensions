@@ -7,6 +7,10 @@ A collection of awesome Chrome extensions by [Hacktoolkit](https://github.com/ha
 - [Organize Tabs](https://github.com/hacktoolkit/organize-tabs-chrome-extension) - Organize your tabs!
 - [Paywall X-ray](https://github.com/hacktoolkit/paywall-xray-chrome-extension) - Manipulates the DOM to see the content your browser has already downloaded
 
+## Starting a new extension
+
+Use the [htk-chrome-extension-skeleton](https://github.com/hacktoolkit/htk-chrome-extension-skeleton) template: Manifest V3, vanilla JavaScript, tests, headless e2e, CI and the holodeck dev profile, all wired up in a small working extension.
+
 ## Development
 
 Each extension is a submodule with its own repository; work, branch and open pull requests there. Conventions for contributors and AI agents, including the throwaway **holodeck** browser profile used for all testing, are in [AGENTS.md](AGENTS.md).
