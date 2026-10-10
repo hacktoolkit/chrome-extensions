@@ -6,3 +6,13 @@ A collection of awesome Chrome extensions by [Hacktoolkit](https://github.com/ha
 - [Notes](https://github.com/hacktoolkit/notes-chrome-extension) - Take notes on URLs
 - [Organize Tabs](https://github.com/hacktoolkit/organize-tabs-chrome-extension) - Organize your tabs!
 - [Paywall X-ray](https://github.com/hacktoolkit/paywall-xray-chrome-extension) - Manipulates the DOM to see the content your browser has already downloaded
+
+## Development
+
+Each extension is a submodule with its own repository; work, branch and open pull requests there. Conventions for contributors and AI agents, including the throwaway **holodeck** browser profile used for all testing, are in [AGENTS.md](AGENTS.md).
+
+```sh
+git clone --recurse-submodules git@github.com:hacktoolkit/chrome-extensions.git
+cd chrome-extensions/organize-tabs-chrome-extension
+make help
+```
