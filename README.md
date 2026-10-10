@@ -6,6 +6,11 @@ A collection of awesome Chrome extensions by [Hacktoolkit](https://github.com/ha
 - [Notes](https://github.com/hacktoolkit/notes-chrome-extension) - Take notes on URLs
 - [Organize Tabs](https://github.com/hacktoolkit/organize-tabs-chrome-extension) - Organize your tabs!
 - [Paywall X-ray](https://github.com/hacktoolkit/paywall-xray-chrome-extension) - Manipulates the DOM to see the content your browser has already downloaded
+- [Skeleton](https://github.com/hacktoolkit/skeleton-chrome-extension) - Template for new extensions: Manifest V3, vanilla JS, tests, headless e2e, CI, holodeck
+
+## Starting a new extension
+
+Use the [skeleton-chrome-extension](https://github.com/hacktoolkit/skeleton-chrome-extension) template: Manifest V3, vanilla JavaScript, tests, headless e2e, CI and the holodeck dev profile, all wired up in a small working extension.
 
 ## Development
 

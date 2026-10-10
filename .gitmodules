@@ -10,3 +10,6 @@
 [submodule "paywall-xray-chrome-extension"]
 	path = paywall-xray-chrome-extension
 	url = git@github.com:hacktoolkit/paywall-xray-chrome-extension.git
+[submodule "skeleton-chrome-extension"]
+	path = skeleton-chrome-extension
+	url = git@github.com:hacktoolkit/skeleton-chrome-extension.git
